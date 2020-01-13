@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EcobiciStationDetail it renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "padding": 17,
+    }
+  }
+>
+  <Title
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Estatus de la estación: Abierta
+  </Title>
+  <Title
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#2B45AC",
+        },
+        Object {
+          "marginTop": 17,
+        },
+      ]
+    }
+  >
+    Estacion de bicicletas
+  </Title>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "marginTop": 17,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Title>
+        [missing "en.bikes" translation]: 3
+      </Title>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Title>
+        [missing "en.slots" translation]: 24
+      </Title>
+    </View>
+  </View>
+  <withTheme(Button)
+    labelStyle={
+      Object {
+        "color": "#2B45AC",
+      }
+    }
+    mode="text"
+    onPress={[Function]}
+    style={
+      Object {
+        "marginTop": 17,
+      }
+    }
+    theme={
+      Object {
+        "animation": Object {
+          "scale": 1,
+        },
+        "colors": Object {
+          "accent": "#2B45AC",
+          "backdrop": "rgba(0, 0, 0, 0.5)",
+          "background": "#EDEDED",
+          "bgBackground": Object {
+            "backgroundColor": "#EDEDED",
+          },
+          "bgBlack": Object {
+            "backgroundColor": "#000",
+          },
+          "bgBlackOpacity": Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+          },
+          "bgDanger": Object {
+            "backgroundColor": "#FF4D4D",
+          },
+          "bgLightGray": Object {
+            "backgroundColor": "#E5E5E5",
+          },
+          "bgPrimary": Object {
+            "backgroundColor": "#FFF",
+          },
+          "bgPrimaryOpacity": Object {
+            "backgroundColor": "rgba(255,255,255,0.5)",
+          },
+          "bgSecondary": Object {
+            "backgroundColor": "#2B45AC",
+          },
+          "bgWhite": Object {
+            "backgroundColor": "#FFF",
+          },
+          "black": "#000",
+          "blackOpacity": "rgba(0,0,0,0.5)",
+          "colorDanger": Object {
+            "color": "#FF4D4D",
+          },
+          "colorMediumGray": Object {
+            "color": "#A1A1A1",
+          },
+          "colorPrimary": Object {
+            "color": "#FFF",
+          },
+          "colorPrimaryOpacity": Object {
+            "color": "rgba(255,255,255,0.5)",
+          },
+          "colorSecondary": Object {
+            "color": "#2B45AC",
+          },
+          "colorWhite": Object {
+            "color": "#FFF",
+          },
+          "danger": "#FF4D4D",
+          "disabled": "rgba(0, 0, 0, 0.26)",
+          "error": "#B00020",
+          "lightGray": "#E5E5E5",
+          "mediumGray": "#A1A1A1",
+          "notification": "#f50057",
+          "onBackground": "#000000",
+          "onSurface": "#000000",
+          "placeholder": "rgba(0, 0, 0, 0.54)",
+          "primary": "#FFF",
+          "primaryOpacity": "rgba(255,255,255,0.5)",
+          "secondary": "#2B45AC",
+          "success": "#4e9f41",
+          "surface": "#ffffff",
+          "text": "#000000",
+          "warning": "#FFCA45",
+          "white": "#FFF",
+        },
+        "dark": false,
+        "fonts": Object {
+          "light": Object {
+            "fontFamily": "System",
+            "fontWeight": "300",
+          },
+          "medium": Object {
+            "fontFamily": "System",
+            "fontWeight": "500",
+          },
+          "regular": Object {
+            "fontFamily": "System",
+            "fontWeight": "400",
+          },
+          "thin": Object {
+            "fontFamily": "System",
+            "fontWeight": "100",
+          },
+        },
+        "roundness": 2,
+      }
+    }
+  >
+    [missing "en.reload_information" translation]
+  </withTheme(Button)>
+</View>
+`;
+
+exports[`EcobiciStationDetail it renders correctly when loading 1`] = `
+<View
+  style={
+    Object {
+      "padding": 17,
+    }
+  }
+>
+  <Title
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Estatus de la estación: Abierta
+  </Title>
+  <Title
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#2B45AC",
+        },
+        Object {
+          "marginTop": 17,
+        },
+      ]
+    }
+  >
+    Estacion de bicicletas
+  </Title>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "marginTop": 17,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Title>
+        [missing "en.bikes" translation]: 3
+      </Title>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Title>
+        [missing "en.slots" translation]: 24
+      </Title>
+    </View>
+  </View>
+  <withTheme(Button)
+    labelStyle={
+      Object {
+        "color": "#2B45AC",
+      }
+    }
+    mode="text"
+    onPress={[Function]}
+    style={
+      Object {
+        "marginTop": 17,
+      }
+    }
+    theme={
+      Object {
+        "animation": Object {
+          "scale": 1,
+        },
+        "colors": Object {
+          "accent": "#2B45AC",
+          "backdrop": "rgba(0, 0, 0, 0.5)",
+          "background": "#EDEDED",
+          "bgBackground": Object {
+            "backgroundColor": "#EDEDED",
+          },
+          "bgBlack": Object {
+            "backgroundColor": "#000",
+          },
+          "bgBlackOpacity": Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+          },
+          "bgDanger": Object {
+            "backgroundColor": "#FF4D4D",
+          },
+          "bgLightGray": Object {
+            "backgroundColor": "#E5E5E5",
+          },
+          "bgPrimary": Object {
+            "backgroundColor": "#FFF",
+          },
+          "bgPrimaryOpacity": Object {
+            "backgroundColor": "rgba(255,255,255,0.5)",
+          },
+          "bgSecondary": Object {
+            "backgroundColor": "#2B45AC",
+          },
+          "bgWhite": Object {
+            "backgroundColor": "#FFF",
+          },
+          "black": "#000",
+          "blackOpacity": "rgba(0,0,0,0.5)",
+          "colorDanger": Object {
+            "color": "#FF4D4D",
+          },
+          "colorMediumGray": Object {
+            "color": "#A1A1A1",
+          },
+          "colorPrimary": Object {
+            "color": "#FFF",
+          },
+          "colorPrimaryOpacity": Object {
+            "color": "rgba(255,255,255,0.5)",
+          },
+          "colorSecondary": Object {
+            "color": "#2B45AC",
+          },
+          "colorWhite": Object {
+            "color": "#FFF",
+          },
+          "danger": "#FF4D4D",
+          "disabled": "rgba(0, 0, 0, 0.26)",
+          "error": "#B00020",
+          "lightGray": "#E5E5E5",
+          "mediumGray": "#A1A1A1",
+          "notification": "#f50057",
+          "onBackground": "#000000",
+          "onSurface": "#000000",
+          "placeholder": "rgba(0, 0, 0, 0.54)",
+          "primary": "#FFF",
+          "primaryOpacity": "rgba(255,255,255,0.5)",
+          "secondary": "#2B45AC",
+          "success": "#4e9f41",
+          "surface": "#ffffff",
+          "text": "#000000",
+          "warning": "#FFCA45",
+          "white": "#FFF",
+        },
+        "dark": false,
+        "fonts": Object {
+          "light": Object {
+            "fontFamily": "System",
+            "fontWeight": "300",
+          },
+          "medium": Object {
+            "fontFamily": "System",
+            "fontWeight": "500",
+          },
+          "regular": Object {
+            "fontFamily": "System",
+            "fontWeight": "400",
+          },
+          "thin": Object {
+            "fontFamily": "System",
+            "fontWeight": "100",
+          },
+        },
+        "roundness": 2,
+      }
+    }
+  >
+    [missing "en.loading_stations" translation]
+  </withTheme(Button)>
+</View>
+`;

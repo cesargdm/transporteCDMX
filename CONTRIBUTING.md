@@ -1,7 +1,7 @@
 # Contribution guide
 ## Issues
 
-You can use [github issues](https://github.com/code-for-mexico/transporteCDMX/issues) to request features and file bug reports. An issue is also a good place to ask questions. We are happy to help out if you have reached a dead end, but please try to solve the problem yourself first.
+You can use [github issues](https://github.com/c4m/transporteCDMX/issues) to request features and file bug reports. An issue is also a good place to ask questions. We are happy to help out if you have reached a dead end, but please try to solve the problem yourself first.
 
 When creating an issue there are couple of things you need to remember:
 
@@ -16,7 +16,7 @@ When creating an issue there are couple of things you need to remember:
 
 ## Pull requests
 
-If you have found a bug or want to add a feature, pull requests are always welcome! It's better to create an issue first to open a discussion if the feature is something that should be added to transporteCDMX. In case of bugfixes it's also a good idea to open an issue indicating that you are working on a fix.
+If you have found a bug or want to add a feature, pull requests are always welcome! It's better to create an issue first to open a discussion if the feature is something that should be added to TransporteCDMX. In case of bugfixes it's also a good idea to open an issue indicating that you are working on a fix.
 
 For a pull request to get merged it needs to have the following things:
 
@@ -24,11 +24,11 @@ For a pull request to get merged it needs to have the following things:
 
 2. **Tests that verify the fix/feature.** It's possible to create a PR without tests and ask for someone else to write them but in that case it may take a long time or forever until someone finds time to do it. _Untested code will never get merged!_
 
-3. **For features you also need to write documentation.** You might want to add them to our readme file
+3. **For features you also need to write documentation.** You might want to add them to our contributing file
 
 ## Development setup
 
-1. **Fork transporteCDMX in your github account**
+1. **Fork TransporteCDMX in your github account**
 
 2. **Clone TransporteCDMX**
 
@@ -37,11 +37,8 @@ git clone git@github.com:<your-account>/transporteCDMX.git
 ```
 3. Follow React Native getting started [guide](https://facebook.github.io/react-native/docs/getting-started#native) to install all the requiremnets. Keep in mind you need to follow React Native CLI Quickstart instructions. 
 
-3. **Run `yarn install` at the root of project's folder**
+4. **Run `yarn install` at the root of project's folder**
 
-4. **Link required packages**
-   - `react-native link react-native-config`
-   
 5. **Run `pod install` at the root of [ios](ios) folder**
 
 6. **Run `yarn test` at the root of project's folder to see if everything works.**

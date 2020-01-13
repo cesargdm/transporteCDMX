@@ -60,7 +60,7 @@ exports[`MetrobusSchedule it renders correctly 1`] = `
       color="#AAA"
       onPress={[Function]}
     >
-      [missing "en.view_on_map" translation]
+      [missing "en.metrobus_location" translation]
     </withTheme(Button)>
   </Card.Actions>
 </withTheme(Card)>

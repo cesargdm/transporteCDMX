@@ -1,4 +1,6 @@
 const colorConstants = {
+  accent: '#2B45AC',
+  background: '#EDEDED',
   black: '#000',
   blackOpacity: hexToRgbA('#000', 0.5),
   danger: '#FF4D4D',
@@ -7,8 +9,8 @@ const colorConstants = {
   primary: '#FFF',
   primaryOpacity: hexToRgbA('#FFF', 0.5),
   secondary: '#2B45AC',
-  background: '#EDEDED',
-  accent: '#2B45AC',
+  success: '#4e9f41',
+  warning: '#FFCA45',
   white: '#FFF',
 }
 

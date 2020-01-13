@@ -33,7 +33,7 @@ If you feel you work under the same philosophy and you want to push forward on y
 ### Analytics we generate
 We only gather app usage information to improve our app. We will only use generated data only with that purpose.
 We don't gather any user's sensitive information like: email, names, phone numbers, etc. If you have any doubt you can
-contact us our check our code. We might open source this information in the future.
+contact us or check our code. We might open source this information in the future.
 
 ### About our endpoints
 We use Mexico City's open data to create this app and we will never charge to obtain any information. For now we will not expose freely any information related to [endpoints file](src/api/endpoints.js).

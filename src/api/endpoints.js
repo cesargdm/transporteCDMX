@@ -35,4 +35,17 @@ const getMetrobusStationSchedule = (id, maxBuses = 6) => {
   })
 }
 
-export { getTrafficTickets, getImpoundLots, getMetroBusLines, getMetrobusStationSchedule }
+const getEcobiciStations = () => {
+  return request({
+    url: `${Config.ECOBICI_API}`,
+    method: GET,
+  })
+}
+
+export {
+  getTrafficTickets,
+  getImpoundLots,
+  getMetroBusLines,
+  getMetrobusStationSchedule,
+  getEcobiciStations,
+}

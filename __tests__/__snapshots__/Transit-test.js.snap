@@ -97,7 +97,7 @@ exports[`Transit it renders correctly while loading 1`] = `
 </Fragment>
 `;
 
-exports[`Transit it renders correctly whit error 1`] = `
+exports[`Transit it renders correctly with error 1`] = `
 <Fragment>
   <StatusBar
     animated={false}

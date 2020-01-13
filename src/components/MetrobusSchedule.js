@@ -36,7 +36,7 @@ class MetrobusSchedule extends PureComponent {
         </Card.Content>
         <Card.Actions style={sharedStyles.flexEnd}>
           <Button color={lineColor} onPress={this._onViewOnMapPressed}>
-            {translate('view_on_map')}
+            {translate('metrobus_location')}
           </Button>
         </Card.Actions>
       </Card>

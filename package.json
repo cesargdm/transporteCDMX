@@ -1,13 +1,13 @@
 {
   "name": "transporteCDMX",
-  "version": "1.0",
+  "version": "1.1.0",
   "license": "GNU V3",
   "description": "iOS and Android App for all the services related to transport in CDMX",
-  "homepage": "TBD",
+  "homepage": "https://codeformexico.com",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/code-for-mexico/transporteCDMX.git"
+    "url": "https://github.com/c4m/transporteCDMX.git"
   },
   "author": {
     "name": "kernel_init",

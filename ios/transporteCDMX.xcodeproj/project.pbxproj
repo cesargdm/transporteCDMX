@@ -795,12 +795,12 @@
 			baseConfigurationReference = F49CEAA000BD150C33FAC20B /* Pods-transporteCDMX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 20190109;
+				CURRENT_PROJECT_VERSION = 20190112;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 8V83L59KX7;
 				INFOPLIST_FILE = transporteCDMX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -817,11 +817,11 @@
 			baseConfigurationReference = 0B886E201514401C41E903BE /* Pods-transporteCDMX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 20190109;
+				CURRENT_PROJECT_VERSION = 20190112;
 				DEVELOPMENT_TEAM = 8V83L59KX7;
 				INFOPLIST_FILE = transporteCDMX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

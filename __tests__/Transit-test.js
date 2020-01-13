@@ -17,7 +17,7 @@ describe('Transit', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('it renders correctly whit error', () => {
+  it('it renders correctly with error', () => {
     const wrapper = shallow(<Transit />)
     wrapper.setState({ isLoading: false, error: true })
     expect(wrapper).toMatchSnapshot()
